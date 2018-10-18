@@ -28,20 +28,20 @@
   <script>
     /* lengkapi variabel const di bawah */
     /* =================== */
-    //const box = document;
+    const box = document.getElementsByClassName('box')[0]
     /* =================== */
     /* https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName */
 
     /* lengkapi fungsi di bawah */
     /* =================== */
-    //box.addEventListener('', berubah)
+    box.addEventListener('click', berubah)
     /* =================== */
     /* https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener */
 
     function berubah() {
       /* lengkapi element di bawah */
       /* =================== */
-      //box.classList
+      box.classList.toggle('hitam')
       /* =================== */
       /* https://developer.mozilla.org/en-US/docs/Web/API/Element/classList */
     }
